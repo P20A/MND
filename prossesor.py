@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 import time
 
-model = YOLO("yolov8n.pt")
+model = YOLO("best.pt")
 cap = cv2.VideoCapture(0)
 
 while True:
